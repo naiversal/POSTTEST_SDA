@@ -299,7 +299,6 @@ int main() {
                 cout << "╭──────────────────────────────────────────────────────────────╮" << endl;
                 cout << "│                        EXIT PROGRAM                          │" << endl;
                 cout << "╰──────────────────────────────────────────────────────────────╯" << endl;
-                cout << "Keluar..." << endl;
                 return 0;
             default:
                 cout << ">> Pilihan tidak valid <<" << endl;
@@ -308,4 +307,5 @@ int main() {
         cin.get();
     } while (pilihan != 0);
     return 0;
+
 }
